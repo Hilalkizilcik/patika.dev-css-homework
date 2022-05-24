@@ -1,0 +1,94 @@
+body {
+  background-image: url("/dogs-img/bg.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1 {
+  text-align: center;
+  color: #fcad7c;
+  margin-top: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1:hover {
+  color: #a769e0;
+  text-shadow: 0 0 25px #00e1ff;
+}
+h4 {
+  text-align: center;
+  color: #8400ff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  margin-bottom: 1px;
+  margin-top: 5px;
+}
+h4:hover {
+  color: #00e1ff;
+  transition: 500ms all;
+}
+p {
+  color: #8400ff;
+  text-shadow: #00e1ff 0 0 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  padding: 10px;
+  word-break: break-all;
+  text-align: center;
+  
+}
+.container {
+  width: 100%;
+  height: auto;
+}
+.dog-box {
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  background-color: #fcad7c;
+  text-align: center;
+  float: left;
+  margin-left: 100px;
+  margin-top: 50px;
+  border: #a769e0 1px solid;
+  box-shadow: #8400ff 0 0 15px;
+  margin-bottom: 50px;
+}
+.dog-box:hover {
+  background-color: #a769e0;
+  transition: 500ms all;
+  -webkit-transition: 500ms all;
+  -moz-transition: 500ms all;
+  -ms-transition: 500ms all;
+  -o-transition: 500ms all;
+  box-shadow: #00e1ff 0 0 15px;
+}
+img {
+  position: relative;
+  text-align: center;
+  width: 400px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+button {
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  background-color: #fcad7c;
+  border: 3px solid #8400ff;
+  box-shadow: 3px 3px 20px #8400ff;
+  height: 70px;
+  width: 120px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 0px;
+}
+button:hover {
+  background-color: rgba(91, 189, 189, 0.685);
+  border: 3px solid blueviolet;
+  color: rgb(255, 255, 255);
+  transition: 500ms all;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
